@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8657" started-at="2019-07-18T06:34:04Z" finished-at="2019-07-18T06:34:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8657" started-at="2019-07-18T06:34:04Z" finished-at="2019-07-18T06:34:13Z">
+      <class name="TestNG.PostMethod">
+        <test-method status="PASS" signature="PostMethod1()[pri:1, instance:TestNG.PostMethod@14bf9759]" name="PostMethod1" duration-ms="3201" started-at="2019-07-18T06:34:04Z" finished-at="2019-07-18T06:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostMethod1 -->
+        <test-method status="PASS" signature="test2()[pri:2, instance:TestNG.PostMethod@14bf9759]" name="test2" duration-ms="916" started-at="2019-07-18T06:34:08Z" finished-at="2019-07-18T06:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:3, instance:TestNG.PostMethod@14bf9759]" name="test3" duration-ms="927" started-at="2019-07-18T06:34:09Z" finished-at="2019-07-18T06:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:4, instance:TestNG.PostMethod@14bf9759]" name="test4" duration-ms="1125" started-at="2019-07-18T06:34:09Z" finished-at="2019-07-18T06:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="Test5()[pri:5, instance:TestNG.PostMethod@14bf9759]" name="Test5" duration-ms="896" started-at="2019-07-18T06:34:11Z" finished-at="2019-07-18T06:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method status="PASS" signature="Test6()[pri:6, instance:TestNG.PostMethod@14bf9759]" name="Test6" duration-ms="772" started-at="2019-07-18T06:34:11Z" finished-at="2019-07-18T06:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+        <test-method status="PASS" signature="Test7()[pri:7, instance:TestNG.PostMethod@14bf9759]" name="Test7" duration-ms="779" started-at="2019-07-18T06:34:12Z" finished-at="2019-07-18T06:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7 -->
+      </class> <!-- TestNG.PostMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

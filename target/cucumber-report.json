@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the FindElements",
+        "description": "",
+        "id": "verify-the-website;open-the-findelements",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7905523761,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Website",
+            "match": {
+              "location": "Stepdef1.open_the_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5451245647,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the Website",
+            "match": {
+              "location": "Stepdef1.verify_the_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6102312788,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Find how many links are avaliable",
+            "match": {
+              "location": "Stepdef1.how_many_liks_are_avaliable()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44027,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on the last link",
+            "match": {
+              "location": "Stepdef1.click_on_the_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@runningtests1"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Open the FindElement",
+        "description": "",
+        "id": "verify-the-website;open-the-findelement",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79116522,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 12,
+                "value": "#Given Searching element on the webpage"
+              }
+            ],
+            "line": 13,
+            "name": "Enter text in search box",
+            "match": {
+              "location": "Stefdef2.enter_text_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10493064438,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on the search button",
+            "match": {
+              "location": "Stefdef2.click_on_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1085649286,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Go back to homepage",
+            "match": {
+              "location": "Stefdef2.back_to_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26165404,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Get the full location of element",
+            "match": {
+              "location": "Stefdef2.get_the_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1185117711,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Again go onto forward page",
+            "match": {
+              "location": "Stefdef2.again_go_onto_forward_pages()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4557150220,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Refresh the webpage",
+            "match": {
+              "location": "Stepdef3.refresh_the_webpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@runningtests2"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Generate the manage",
+        "description": "",
+        "id": "verify-the-website;generate-the-manage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 960006450,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Navigate to homepage",
+            "match": {
+              "location": "Stepdef3.navigate_to_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13136581,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Create cookies",
+            "match": {
+              "location": "Stepdef3.create_cookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128526674,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: failed to change window state to normal, current state is minimized\n  (Session info: chrome\u003d72.0.3626.109)\n  (Driver info: chromedriver\u003d2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform\u003dLinux 4.15.0-54-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 127 milliseconds\nBuild info: version: \u00272.50.0\u0027, revision: \u00271070ace4650453d518aeb03e7a9a36c9d264a8e7\u0027, time: \u00272016-01-27 10:46:18\u0027\nSystem info: host: \u0027ASDA1711PO02529\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-54-generic\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dLINUX, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:32931}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926), userDataDir\u003d/tmp/.org.chromium.Chromium.IifR1J}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d72.0.3626.109, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: bb35929695f92bb77ee59c0af25b49fd\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.fullscreen(RemoteWebDriver.java:951)\n\tat action.manage.Full_Screen(manage.java:32)\n\tat stepdef.Stepdef3.Full_Screen(Stepdef3.java:24)\n\tat ✽.Then Turning webpage into full screen(Feature/Qa Infotech.feature:24)\n",
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "Turning webpage into full screen",
+            "match": {
+              "location": "Stepdef3.Full_Screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Get the X coordinates and Y coordinates",
+            "match": {
+              "location": "Stepdef3.get_the_coordinates()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Refresh the webpage",
+            "match": {
+              "location": "Stepdef3.refresh_the_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "finally close the window",
+            "match": {
+              "location": "Stepdef3.close_the_window()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@runningtests3"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the website",
+    "description": "",
+    "id": "verify-the-website",
+    "keyword": "Feature",
+    "uri": "Feature/Qa Infotech.feature"
+  }
+]
